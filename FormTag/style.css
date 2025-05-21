@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+nav :first-child{
+    background-color: green;
+}
+nav :last-child{
+    background-color: red;
+}
+nav :nth-child(2){
+    background-color: lightslategray;
+}
+nav :nth-child(3),nav :nth-child(4){
+    background-color: burlywood;
+}
+nav :hover{
+    background-color: lightgrey;
+}
+nav :nth-last-child(2){
+    background-color:thistle;
+}
