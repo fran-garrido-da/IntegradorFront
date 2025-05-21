@@ -1,29 +1,51 @@
+<!-- escuela primara 
+
+
+--> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="navbar container">
-            <ul>
-                <li><button class="btn-navbar">Inicio</button></li>
-                <li><button class="btn-navbar">Noticias</button></li>
-                <li><button class="btn-navbar">Propuestas educativas</button></li>
-                <li><button class="btn-navbar">Contacto</button></li>
-                <li><button class="btn-navbar">FAQ</button></li>
+        <nav class="navbar">
+            <ul class="container">
+                <button class="btn-navbar">Quienes somos</button>
+                <button class="btn-navbar">¿Por que elegirnos?</button>
+                <button class="btn-navbar">Propuestas educativas</button>
+                <button class="btn-navbar">Ultimas noticias</button>
             </ul>
         </nav>        
     </header>
-    <main>
-        <form>
+    <main class="container">
+        <form class="container form">
             <!-- nombre,email,mensaje - minimo -->
+            <label for="">Nombre:
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            </label>
+            <label for="">Email:
+                <input type="email" name="email" id="email" placeholder="example@mail.com">
+            </label>
+            <label for="mensaje">
+                Su mensaje:
+                <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                spellcheck
+              >
+            </textarea>
+            </label>
+            <button type="submit">Enviar</button>
         </form>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>

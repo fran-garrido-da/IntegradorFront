@@ -1,0 +1,40 @@
+:root{
+    --prim: #FC7300;
+    --sec: #1F8A70;
+    --ter: #00425A;
+    --cuar: #181823;
+    --quin: #EFF5F5;
+}
+body{
+    background-color: var(--ter);
+}
+.navbar{
+    width:95vw;
+    margin:0 auto;
+    height:fit-content;
+    background-color: var(--sec);
+    
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:0 auto;
+    gap: 0.4vw;
+    padding: 5vh;
+
+}
+.form{
+    width:40vw;
+    flex-direction: column;
+}
+label,input,textarea{
+    width:100%
+}
+.btn-navbar{
+    background-color: var(--prim);
+    width:19.7vw;
+    height: 10vh;
+    text-overflow: clip;
+
+}
